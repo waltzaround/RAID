@@ -25,13 +25,14 @@ h3 {
 }
 
 h4 {
-    font-weight: 300;
+    font-weight: 500;
     font-size: 1.25rem;
 }
 
 p {
     font-weight: 300;
     line-height: 2;
+    font-size: 1.05rem;
 }
 
 hr {
@@ -68,5 +69,19 @@ header .link-items {
 
 .main {
     max-width: 1440px;
-    margin: 2.5rem auto;
+    margin: 4rem auto;
+}
+
+.pad {
+    padding-left: 15rem;
+    margin-top: 4rem;
+}
+
+.license {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2.5rem;
+    border: 2px solid rgb(33, 33, 33);
+    padding: 4rem;
+    border-radius: 16px;
 }
