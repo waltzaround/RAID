@@ -1,0 +1,72 @@
+/* Utilities */
+
+body {
+    margin: 0;
+    font-family: 'DM Mono', monospace;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    background-color: #101010;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+
+p {
+    font-weight: 300;
+    line-height: 2;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: rgb(46, 46, 46);
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* header */
+header {
+    padding: 0.5rem 0;
+    max-width: 1440px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(46, 46, 46);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    ;
+}
+
+header .link-items {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.link-items a {
+    color: lightcoral
+}
+
+/* main content */
+
+.main {
+    max-width: 1440px;
+    margin: 2.5rem auto;
+}
