@@ -137,7 +137,31 @@ header .link-items {
 }
 
 @media screen and (max-width: 800px) {
+
+
   .license {
     grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 600px) {
+
+  .main {
+    margin: 0;
+    padding:0rem 1rem;
+  }
+
+  .pad {
+    padding: 0;
+  }
+  .license-content, .badge {
+    padding: 0;
+    margin: 1rem;
+  }
+  .button {
+    max-width: initial;
+    margin: 1rem;
   }
 }
