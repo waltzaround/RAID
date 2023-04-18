@@ -1,118 +1,143 @@
 /* Utilities */
 
 body {
-    margin: 0;
-    font-family: 'DM Mono', monospace;
-    font-weight: 400;
-    font-size: 16px;
-    color: white;
-    background-color: #101010;
+  margin: 0;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  background-color: #101010;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
-    font-weight: 300;
-    font-size: 2.5rem;
+  font-weight: 300;
+  font-size: 2.5rem;
 }
 
 h2 {
-    font-weight: 300;
-    font-size: 2rem;
+  font-weight: 600;
+  font-size: 2.25rem;
 }
 
 h3 {
-    font-weight: 300;
-    font-size: 1.75rem;
-    margin: 0 0 1.5rem 0;
+  font-weight: 300;
+  font-size: 1.75rem;
+  margin: 0 0 1.5rem 0;
 }
 
 h4 {
-    font-weight: 500;
-    font-size: 1.25rem;
+  font-weight: 500;
+  font-size: 1.25rem;
 }
 
 p {
-    font-weight: 300;
-    line-height: 2;
-    font-size: 1.05rem;
+  font-weight: 300;
+  line-height: 2;
+  font-size: 1.05rem;
+  max-width: 900px;
+  color: #cfcfcf;
+}
+a {
+  color: pink;
+}
+hr {
+  border: none;
+  height: 2px;
+  border-radius: 120px;
+
+  background: rgb(77, 77, 77);
+  max-width: 1200px;
+  margin: 4rem auto;
 }
 
-hr {
-    border: none;
-    height: 1px;
-    background-color: rgb(46, 46, 46);
-    max-width: 1440px;
-    margin: 0 auto;
+li {
+  font-size: 1rem;
+  line-height: 2;
+  margin: 1.5rem 0;
+  color: #cfcfcf;
 }
 
 .button {
-    background-color: white;
-    color: black;
-    border: none;
-    font-family: inherit;
-    padding: 0.75rem 1.5rem;
-    text-decoration: none;
+  display: block;
+  text-align: center;
+  max-width: 240px;
+  background-color: white;
+  color: black;
+  border: none;
+  font-family: inherit;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
 }
 
 /* header */
 header {
-    padding: 0.5rem 0;
-    max-width: 1440px;
-    margin: 0 auto;
-    border-bottom: 1px solid rgb(46, 46, 46);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    ;
+  padding: 0.5rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgb(46, 46, 46);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 header .link-items {
-    display: flex;
-    gap: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .link-items a {
-    color: lightcoral
+  color: lightcoral;
 }
 
 /* main content */
 
 .main {
-    max-width: 1440px;
-    margin: 4rem auto;
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 4rem auto;
 }
 
 .pad {
-    padding-left: 15rem;
-    margin-top: 4rem;
+  padding-left: 15rem;
+  margin-top: 4rem;
 }
 
 .license {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 2.5rem;
-    border: 2px solid rgb(33, 33, 33);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 2.5rem;
+  border: 2px solid rgb(77, 77, 77);
 
-    border-radius: 16px;
+  border-radius: 16px;
 }
 .license-content {
-margin: 4rem;
+  margin: 4rem;
+}
+.license-content p {
+  margin: 2.5rem 0;
 }
 
 .badge-item {
-    max-height: 120px;
-    box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.12);
-    background: rgba(0,0,0,0);
-    border-radius: 24px;
+  max-height: 120px;
+  box-shadow: 0px 0px 40px rgba(255, 255, 255, 0.12);
+  background: rgba(0, 0, 0, 0);
+  border-radius: 24px;
 }
 
 .badge {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+  .license {
+    grid-template-columns: 1fr;
+  }
 }
